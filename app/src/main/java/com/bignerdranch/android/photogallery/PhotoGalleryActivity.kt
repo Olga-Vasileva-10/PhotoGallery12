@@ -10,7 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class PhotoGalleryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        //А менюшка то нужна была :(
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_photo_gallery)

@@ -9,6 +9,7 @@ import android.os.Build
 
 const val NOTIFICATION_CHANNEL_ID = "flickr_poll"
 
+
 class PhotoGalleryApplication : Application() {
     override fun onCreate() {
         super.onCreate()
