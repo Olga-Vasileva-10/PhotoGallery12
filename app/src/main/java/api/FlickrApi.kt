@@ -10,6 +10,7 @@ interface FlickrApi {
     @GET("services/rest?method=flickr.interestingness.getList")
     fun fetchPhotos(): Call<FlickrResponse>
 
+
     @GET
     fun fetchUrlBytes(@Url url: String) : Call<ResponseBody>
 
