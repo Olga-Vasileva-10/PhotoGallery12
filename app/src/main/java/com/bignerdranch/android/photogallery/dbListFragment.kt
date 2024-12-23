@@ -86,6 +86,7 @@ class dbListFragment : Fragment() {
         photoRecyclerView.adapter = adapter
     }
 
+
     private inner class PhotoHolder(view: View)
         : RecyclerView.ViewHolder(view) {
 

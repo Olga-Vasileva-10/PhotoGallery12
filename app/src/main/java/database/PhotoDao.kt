@@ -8,7 +8,6 @@ import com.bignerdranch.android.photogallery.GalleryItem
 
 @Dao
 interface PhotoDao {
-
     @Query("SELECT * FROM galleryitem")
     fun getPhotos(): LiveData<List<GalleryItem>>
 

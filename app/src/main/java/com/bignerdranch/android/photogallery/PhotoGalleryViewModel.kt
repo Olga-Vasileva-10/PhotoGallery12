@@ -9,7 +9,6 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 
 class PhotoGalleryViewModel(private val app: Application) : AndroidViewModel(app) {
-
     //val photoRepository : PhotoRepository = PhotoRepository.get()
     val galleryItemLiveData : LiveData<List<GalleryItem>>
     private val flickrFetchr = FlickrFetchr()

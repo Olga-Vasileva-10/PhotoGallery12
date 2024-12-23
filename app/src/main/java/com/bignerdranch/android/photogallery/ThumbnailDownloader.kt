@@ -12,7 +12,6 @@ import androidx.lifecycle.OnLifecycleEvent
 import java.util.concurrent.ConcurrentHashMap
 
 private const val TAG = "ThumbnailDownloader"
-
     private const val MESSAGE_DOWNLOAD = 0
     class ThumbnailDownloader<in T>(
         private val responseHandler: Handler,

@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.switchMap
 
+
 class PhotoDetailViewModel: ViewModel() {
 
     private val photoRepository = PhotoRepository.get()

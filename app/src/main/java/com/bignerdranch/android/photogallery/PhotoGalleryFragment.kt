@@ -33,8 +33,6 @@ private const val TAG = "PhotoGalleryFragment"
 private const val POLL_WORK = "POLL_WORK"
 
 class PhotoGalleryFragment : Fragment() {
-
-
     private lateinit var photoGalleryViewModel : PhotoGalleryViewModel
     private lateinit var photoRecyclerView : RecyclerView
     private lateinit var thumbnailDownloader : ThumbnailDownloader<PhotoHolder>

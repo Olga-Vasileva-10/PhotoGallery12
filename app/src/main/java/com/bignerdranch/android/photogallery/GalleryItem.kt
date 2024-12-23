@@ -6,6 +6,7 @@ import com.google.gson.annotations.SerializedName
 
 @Entity
 data class GalleryItem(
+
     @PrimaryKey var id: String = "",
     var title: String = "",
     @SerializedName("url_s") var url: String = ""

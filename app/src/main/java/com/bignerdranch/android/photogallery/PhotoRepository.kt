@@ -8,7 +8,6 @@ import java.util.concurrent.Executors
 
 private const val DATABASE_NAME = "photo-database"
 
-
 class PhotoRepository private constructor(context: Context) {
 
     private val executor = Executors.newSingleThreadExecutor()
